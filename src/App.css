@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.fullscreen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.scroll-button {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.map-container {
+  height: 100vh;
+  background-color: #fff;
+}
+/* App.css */
+.fullscreen {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
